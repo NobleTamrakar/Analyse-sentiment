@@ -6,9 +6,9 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import time
 
 app = Flask(__name__)
-CORS(app)   # <-- Only initialize once
+CORS(app)   
 
-API_KEY = "AIzaSyCRhWpyh_AOOBZecFZ5iJlTBe8DX76XzuU"   # <--- Put your YouTube API key here
+API_KEY = "***"   
 
 
 def extract_video_id(url):
